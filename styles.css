@@ -1,0 +1,47 @@
+@font-face {
+    font-family: atletico;
+    src: url(/fonts/Atletico\ Medium.otf);
+}
+
+
+body{
+    margin:0;
+   background-color: #EAF9D9;
+}
+canvas{
+    display:block;
+}
+
+#hello{
+    position:absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+}
+
+#container{
+    display: flex;
+}
+
+#info{
+    width: 50vw;
+}
+
+.title{
+    height: 15vh;
+    width: fit-content;
+    display: flex;
+    padding: 5%;
+    font-family: 'Atletico';
+}
+
+.intro{
+    font-size: 32px;
+}
+
+.instructions{
+    font-family: 'Atletico';
+    font-size: 16px;
+    padding: 3%;
+    margin: 3%;
+}
